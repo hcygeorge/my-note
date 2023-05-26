@@ -1,0 +1,10 @@
+動作, 模式, 快捷鍵
+全選, normal, ggVG
+刪除, normal, d
+複製, visual, y(反白後)
+貼上, normal, p
+
+
+搜尋光標前特定詞, normal, /keyword
+搜尋光標後特定詞, normal, ?keyword
+移動到上/下個特定詞, normal, N,n 

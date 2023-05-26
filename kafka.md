@@ -1,0 +1,6 @@
+- Kafka是用於傳輸和儲存串流數據的平台
+- 在Kafka中，每個事件串流稱為topic，與Kafka串接的系統分成producer和consumer，其中producer負責發送數據到指定topic，而consumer則從topic接收數據
+- Kafka的運作方法又稱作publish-subscribe模式
+- Kafka本身有個分散式的log系統可以永久的儲存數據，所以他本身不依賴hdfs或其他資料庫
+- Kafka需要依賴ZooKeeper管理資源，例如儲存metadata(topic與partition的數量、位置和狀態)或再一個節點失效時通知其他節點取代
+- 一個可能的應用方法:以Kafka收集會員在網站的行為數據，像是搜尋、點擊或下單紀錄，再交由Spark streaming處理數據或分析

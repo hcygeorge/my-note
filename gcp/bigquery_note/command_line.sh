@@ -16,3 +16,17 @@ gcs2bq "member" "member/v1/parquet/current"
 bq mk -t \
 --schema /path/to/schema.json \
 project_id:dataset_id.table_id
+
+# schema.json format
+# [
+#   {
+#     "name": "uid",
+#     "type": "STRING",
+#     "mode": "NULLABLE"
+#   },
+#   {
+#     "name": "region0",
+#     "type": "STRING",
+#     "mode": "NULLABLE"
+#   }
+# ]
